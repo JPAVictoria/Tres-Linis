@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+   background-color:#379683;
+    height: 100px;
+    opacity: none;
+}
+
+h1{
+    margin: 0;
+    font-family:Helvetica;
+    font-size: 45px;
+    color:#EDF5E1;
+    padding-top: 2px;
+    text-shadow: -1px -1px rgba(0, 0,0,0.719), 1px 1px rgba(0, 0, 0, 0.719);
+}
+
+.paragraph p{
+    font-size:24px;
+    margin-top: 5px;
+    font-family:sans-serif;
+}
+
+.Logo img{
+    width: 84px;
+    height: 75px;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 35px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.list1 ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list1 li{
+    float: right;
+    margin-right:40px;
+    margin-top:37px;
+}
+
+.list1 li a{
+    text-decoration: none;
+    color:#EDF5E1;
+    display: inline-block;
+    font-size: 28px;
+    text-shadow: -1px -1px rgba(0, 0,0,0.719), 1px 1px rgba(0, 0, 0, 0.719);
+}
+
+.list1 li a:hover{
+    color: #05386B;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+.main-background{
+    height: 567px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url("iLSImages/pexels-matilda-wormwood-4099264\ \(1\).jpg");
+}
+
+.textt{
+    display: inline-block;
+    margin: 150px 0 0 40px;
+    width: 380px;
+    height: 280px;
+    opacity: 0.9;
+    background-color: #EDF5E1;
+}
+
+.textt h2{
+    font-size: 160%;
+    padding-top: 3px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.textt p{
+    font-size: 95%;
+    line-height: 1.6;
+    font-family: Arial;
+    text-align: center;
+}
+
+.button{
+    background-color: #05386B;
+    border: none;
+    width: 250px;
+    color: #EDF5E1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 0 0 64px;
+}
+
+.button:hover{
+    color:#379683;
+    text-decoration: underline;
+}
+
+/*Only Homepage code above */
+
+.line1{
+    border: 10px solid #05386B;
+    margin: 0;
+}
+
+.second-background{
+    background-color: #5CDB95;
+    height: 2300px;
+}
+
+.cleaning{
+    display: inline-block;
+}
+
+.cleaning h2, .sanitizing h2, .disinfecting h2{
+    font-size:180%;
+    font-family: Helvetica;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+.cleaning h3, .sanitizing h3, .disinfecting h3{
+    font-size:150%;
+    font-family:Helvetica;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.cleaning p, .sanitizing p, .disinfecting p{
+    margin-left: 50px;
+    font-size: 120%;
+}
+
+.list2 ul, .list3 ul, .list4 ul{
+    list-style-type: upper-roman;
+    font-size: 120%;
+    list-style-position: inside;
+}
+
+.list2 li a:hover, .list3 li a:hover, .list4 li a:hover{
+    color: #379683;
+    text-decoration: none;
+}
+
+.tips-cleaning ul, .tips-sanitizing ul, .tips-disinfecting ul{
+    list-style-type: upper-roman;
+    font-size: 120%;
+    list-style-position: inside;
+}
+
+.browser-1, .browser-2, .browser-3{
+        background-color: #EDF5E1;
+        width: 1240px;
+        margin-left:10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding-top: 1px;
+        padding-bottom: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+/*Cleaning,Sanitinzg, disinfecting css code above only */
+
+.ilsimages img{
+    width: 370px;
+    height: 400px;
+    float: left;
+    border: 2px solid black;
+    margin: 25px 0 0 38px;
+    transition: transform .2s;
+}
+
+.ilsimages img:hover{
+    transform: scale(1.1);
+}
+
+.textt1 h2{
+    float: left;
+    font-family:Helvetica;
+    font-size: 55px;
+    margin: 30px 30px 0 100px;
+    color: #EDF5E1;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+/*INFORMATION CODES ABOVE ONLY */
+
+
+.teams h2{
+    text-align:center;
+    font-family:serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.ilsimages1 img{
+    width: 370px;
+    height: 300px;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 25px 0 0 38px;
+}
+
+
+.andre img{
+    width: 370px;
+    height: 300px;
+    clear: both;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+.members h2{
+    text-align: center;
+    font-family:serif;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+.members ul{
+    font-family: Arial;
+    font-size: 120%;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.members li{
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* teams code only */
+
+.footer-area{
+    height: 550px;
+    background-color: #05386B;
+}
+
+.aboutt h4{
+  color:#fff;
+  font-size:20px;
+  font-weight: lighter;
+  text-transform:uppercase;
+  padding-top:30px;
+  margin-left:20px;
+  letter-spacing:2px;
+  font-family: sans-serif;
+}
+
+h4{
+    color:#fff;
+    font-size:20px;
+    font-weight: lighter;
+    text-transform:uppercase;
+    margin-left:20px;
+    letter-spacing:2px;
+    font-family: sans-serif;
+}
+
+
+h5{
+  color:#fff;
+  font-size:18px;
+  font-weight: lighter;
+  margin-left:20px;
+  letter-spacing:2px;
+  font-family: sans-serif;
+}
+
+.about-p p{
+    font-size:17px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    font-weight: lighter;
+    line-height:24px;
+    color:#EDF5E1;
+}
+
+dt{
+  color:#fff;
+  font-size:16px;
+  font-weight: lighter;
+  margin-left:20px;
+  letter-spacing:2px;
+  font-family: sans-serif;
+}
+
+dd{
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color:#EDF5E1;
+    letter-spacing: 2px;
+}
+
+.line2{
+    width: 700px;
+    border: 1px solid #3b8173;
+}
+
+.footer-end{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #EDF5E1;
+}
+
+.footer-end a{
+    text-decoration: none;
+    color: #5CDB95;
+}
+/* CSS END CODE */
+/* ENDD */
